@@ -1,0 +1,27 @@
+Package: LIANLABDATA
+Title: Data for package 'LIANLAB'
+Version: 0.0.1.0
+Authors@R: c(
+    person(given = "Bian",
+           family = "zh",
+           role = c("aut", "cre"),
+           email = "scut.zhenhaub@gmail.com"),
+    person(given = "Long",
+           family = "J",
+           role = c("aut"),
+           email = "lj9358@mail.ustc.edu.cn"))
+Description: To provide data for package 'LIANLAB'.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends:
+    R (>= 3.6.0)
+Imports: 
+    SeuratObject,
+    SummarizedExperiment,
+    MatrixGenerics,
+    matrixStats,
+    biomaRt,
+    testthat
